@@ -1,0 +1,78 @@
+</head>
+<body>
+<title>Cuestionario química organica y inorganica</title>
+<h1>Cuestionario química organica y inorganica</h1> <!--Empieza sección -->
+<form action="cocolover" method="Post">
+Nombre de usuario<input type="text" name="nombre" >
+Contraseña<input type="password" name="contra"> 
+Nivel educativo
+<select name="E1" size="1">
+<option value="p">Educación primaria</option>
+<option value="s">Educación secundaria</option>
+<option value="u">Educación universitaria+</option>
+</select>
+¿Necesitas ayuda? 
+<select name="C1">
+<option value="CFCQ.html">Cambio fisico vs cambio quimico
+<option value="CE.html">Cambios de estado
+<option value="AT.html">El átomo
+</select>
+<input type="button" value="Ir a..." onclick="top.location.href=this.form
+.C1.options[this.form.C1.selectedIndex].value"><br>
+<img src="Imagenes/PG.jpg" height="400px" width="400px" align="right" > <!--Empieza sección -->
+<h3>¿Cambio químico o físico?</h3> <!--Empieza sección -->
+Evaporación del agua<br>
+<input type="radio" name="S1" value="1" >Quimico
+<input type="radio" name="S2" value="2" >Físico<br>
+Disolucion de agua y azucar<br>
+<input type="radio" name="S3" >Quimico
+<input type="radio" name="S4" >Físico<br>
+Oxidacion del cobre<br>
+<input type="radio" name="S5" >Quimico
+<input type="radio" name="S6" >Físico<br>
+<strong>Reto</strong><br>
+Desintegración del uranio-238 a plomo-206<br>
+<input type="radio" name="S7" >Quimico
+<input type="radio" name="S8" >Físico<br>
+
+<h3>Estados de la materia</h3> <!--Empieza sección -->
+¿Cuales de estos son cambios de estado en los que se ven involucrados los gases de una alguna forma?<br>
+<input type="checkbox" name="t1" >Sublimación
+<input type="checkbox" name="t2" >Fusión
+<input type="checkbox" name="t3" >Solidificación
+<input type="checkbox" name="t4" >Tracción
+<input type="checkbox" name="t5" >Ionización
+<input type="checkbox" name="t6" >Fluctuación<br>
+¿Cuales son los estados de la materia que mantienen parcial o totalmente sus átomos juntos?<br>
+<input type="checkbox" name="g1" >Solido
+<input type="checkbox" name="g2" >Liquido
+<input type="checkbox" name="g3" >Gaseoso
+<input type="checkbox" name="g4" >Plasmatico
+<h3>El atomo</h3> <!--Empieza sección -->
+¿Cuales son las partículas que forman los átomos?<br>
+<input type="radio" name="f1" >Linfocitos, macrofagos y fisuras.
+<input type="radio" name="f2" >Protones, neutrones y electrones.
+<input type="radio" name="f3" >Quarks de abajo, quarks de arriba y particulas de plank.
+<input type="radio" name="f4" >Julios, bares y newtons.<br>
+¿Qué pueden tener dos átomos de un mismo elemento?<br>
+<input type="checkbox" name="i1" >Mismo número atómico y diferente número masico.
+<input type="checkbox" name="i2" >Mismo número másico y diferente número atómico.
+<input type="checkbox" name="i3" >Mismo número átomico y másico pero diferente número de electrones.
+<input type="checkbox" name="i4" >Mismo número átomico, másico, número de electrones pero diferente número de neutrones.<br>
+<h3>Preguntas para hacer estadistica</h3> <!--Empieza sección -->
+Indique el nivel de dificultad que considera que posee este cuestionario considerando que cuanto mas completa este la barra mas dificil le ha resultado:<input type="range" name="z1"  min="0" max="10" step="1" list="z1" >
+<datalist id="z1">
+  <option value="2">
+  <option value="4">
+  <option value="6">
+  <option value="8">
+  <option value="10">
+</datalist><br>
+<br>
+Indica el dia en el que realizo el cuestionario:<input type="date" name="fecha">
+<br><br><br>
+<input type="submit" value="Enviar cuestionario"> <input type="reset" value="Resetear">
+</form>
+</body>
+</html>
+
